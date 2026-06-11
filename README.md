@@ -2,7 +2,7 @@
 
 Oyun fiyatlarını karşılaştıran, indirimleri keşfetmeni sağlayan bir web uygulaması. CheapShark ve Steam Store API'lerinden canlı veri çeker; mobil tarafta ise yerel snapshot ile çalışır.
 
-**Canlı demo:** _Vercel adresi eklenecek_
+**Canlı demo:** [priceplay-lemon.vercel.app](https://priceplay-lemon.vercel.app/#/)
 
 > **Bu proje bir öğrenme / portföy projesidir.** Üniversite sürecinde React, TypeScript, API entegrasyonu ve çoklu platform mimarisi pratiği için geliştirilmiştir. Ticari bir ürün değildir; hata toleransı, ölçeklenebilirlik ve production güvenliği production seviyesinde değildir.
 
@@ -158,7 +158,7 @@ Web arayüzü (kök klasör) Vercel ile deploy edilebilir. `server/` ve mobil kl
 1. [vercel.com](https://vercel.com) hesabı aç (GitHub ile giriş önerilir).
 2. **Add New → Project** → `yusufreyhan/priceplay` reposunu seç.
 3. Yukarıdaki build ayarlarını doğrula, **Deploy**'a bas.
-4. İlk build bitince `https://priceplay-....vercel.app` adresin hazır olur.
+4. İlk build bitince Vercel domain adresin hazır olur (ör. `https://priceplay-lemon.vercel.app`).
 5. Bu adresi README'deki **Canlı demo** satırına ekle ve GitHub'a push et.
 
 ---
